@@ -1,5 +1,5 @@
 FROM centos:7
-ENV goversionname=go1.16
+ENV goversionname=go1.16.2
 ENV PATH=$PATH:/usr/local/go/bin
 RUN yum install wget gcc+ gcc-c++ gcc g++ make git c++ patch -y &&\
 mkdir /tmp/_makedir && mkdir /home/gopath  &&\
