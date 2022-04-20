@@ -1,5 +1,5 @@
 FROM centos:7
-ENV goversionname=go1.17.6
+ENV goversionname=go1.17.9
 ENV PATH=$PATH:/usr/local/go/bin
 RUN yum install make git -y && yum clean all
 RUN mkdir /tmp/_makedir && mkdir /home/gopath  &&\
