@@ -4,7 +4,7 @@ go centos compiler
 # use
 
 ``` docker
-docker pull registry.cn-hangzhou.aliyuncs.com/deeplearns/gocentoscompiler:goversion
+docker pull registry.cn-hangzhou.aliyuncs.com/myffx/gocentoscompiler:goversion
 eg:
-docker pull registry.cn-hangzhou.aliyuncs.com/deeplearns/gocentoscompiler:1.19.6
+docker pull registry.cn-hangzhou.aliyuncs.com/myffx/gocentoscompiler:1.19.6
 ```
